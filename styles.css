@@ -1,0 +1,211 @@
+:root {
+    --myWidth-screen: 794px;
+    --myHeight-screen: 1123px;
+}
+
+html {
+    min-width: var(--myWidth-screen);
+    width: var(--myWidth-screen);
+    /* height: var(--myHeight-screen); */
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    /* align-items: center; */
+    /* min-width: var(--myWidth-screen); */
+    /* margin: 0 auto; */
+}
+
+/* .container { */
+/* min-width: var(--myWidth-screen); */
+/* min-height: 1123px; */
+/* width: var(--myWidth-screen); */
+/* height: var(--myHeight-screen); */
+/* background-color: aqua; */
+/* margin: 0 auto; */
+/* } */
+
+.category_1 {
+    background-color: rgb(230, 215, 196);
+    display: grid;
+    grid-template-columns: 40% auto;
+    height: 20%;
+    /* padding-top: 1em; */
+}
+
+/* .category_personal_image{
+    border: solid 2px black;
+} */
+.category_personal_image img {
+    border-radius: 10em;
+    width: 13em;
+    height: 13em;
+    margin: 0.5em 0 0 5em;
+}
+
+.category_personal_name {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.category_personal_name h1 {
+    /* font-size: xx-large; */
+    font-size: 2em;
+}
+
+.category_2 {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+
+.container_category_1 {
+    background-color: burlywood;
+}
+
+.category_personal_2 {
+    height: fit-content;
+    padding-left: 0.5em;
+}
+
+.category_personal_2 .career_main,
+.content_main .career_main,
+.category_personal_2 .personal_details {
+    line-height: 1.5;
+}
+
+.category_personal_2 .personal_details {
+    list-style-type: none;
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.cate_li {
+    display: inline-flex;
+    margin-left: 0;
+    padding: 0.5em 0;
+}
+
+.icon_item i {
+    border-radius: 50%;
+    background-color: antiquewhite;
+    margin-right: 5px;
+    padding: 4px;
+}
+
+.container_category_2 {
+    background-color: cadetblue;
+    padding-left: 10px;
+}
+
+.container_item h2 {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.container_item .container_content {
+    display: grid;
+    grid-template-columns: 18% auto;
+    margin: 0;
+    padding: 0;
+}
+
+.comtainer_item .container_content h4 {
+    padding-top: 0;
+    margin: 16px 0;
+}
+
+.content_time {
+    font-weight: bold;
+}
+
+.content_main {
+    border-left: solid black 2px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.skills_main {
+    /* margin-top: 0; */
+    /* padding-top: 0; */
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        min-width: 550px;
+        width: 550px;
+    }
+
+    .container {
+        width: 600px;
+        font-size: 0.75em;
+    }
+
+    /* .container {
+        min-width: 794px;
+        min-height: 1123px;
+        width: 794px;
+        height: 1123px;
+        background-color: aqua;
+        margin: 0 auto;
+    } */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .body {
+        min-width: var(--myWidth-screen);
+    }
+
+    .container {
+        min-width: var(--myWidth-screen);
+        min-height: 1123px;
+        width: var(--myWidth-screen);
+        height: 1123px;
+        background-color: aqua;
+        margin: 0 auto;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .container {
+        min-width: 794px;
+        min-height: 1123px;
+        width: 794px;
+        height: 1123px;
+        background-color: aqua;
+        margin: 0 auto;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    .container {
+        min-width: 794px;
+        min-height: 1123px;
+        width: 794px;
+        height: 1123px;
+        background-color: aqua;
+        margin: 0 auto;
+    }
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    .container {
+        min-width: 794px;
+        min-height: 1123px;
+        width: 794px;
+        height: 1123px;
+        background-color: aqua;
+        margin: 0 auto;
+    }
+} */
